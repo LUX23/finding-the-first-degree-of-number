@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 #include <locale.h>
 
 /// Дано целое число N. Определить первое i, для которого 3^i>N. Значение N
