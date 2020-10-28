@@ -20,7 +20,7 @@ int body(int N, int i)
 
 int main()
 {
-    char *locale = setlocale(LC_ALL, "");
+    char *locale = setlocale(LC_ALL, "RUSSIAN");
     
     int N, i;
     printf("Введите значение числа N: ");
