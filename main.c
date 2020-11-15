@@ -1,8 +1,7 @@
 // Дано целое число N. Определить первое i, для которого 3^i>N. Значение N
 // ввести в программу. Вывести значения N и i.
 #include <stdio.h>
-#include <conio.h>
-#include <locale.h>
+#include <windows.h>
 #include <math.h>
 
 int find(int N)
@@ -22,7 +21,8 @@ int find(int N)
 
 int main()
 {
-    char *locale = setlocale(LC_ALL, "RUSSIAN");
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
     
     int N,i;
     
