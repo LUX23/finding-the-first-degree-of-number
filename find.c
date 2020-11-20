@@ -1,5 +1,6 @@
 #include <math.h>
 
+
 int find(int N)
 {
     int i = 0;
