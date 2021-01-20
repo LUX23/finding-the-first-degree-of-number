@@ -8,7 +8,7 @@ int main()
 {
     setlocale (LC_CTYPE, "RUSSIAN");
 
-    int N,i;
+    int N, i;
     printf("Введите значение числа N: ");
     scanf("%d", &N);
 
