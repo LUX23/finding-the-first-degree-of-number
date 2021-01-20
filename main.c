@@ -6,7 +6,7 @@
 
 int main()
 {
-    char *locale = setlocale(LC_ALL, "RUSSIAN");
+    setlocale (LC_CTYPE, "RUSSIAN");
 
     int N,i;
     printf("Введите значение числа N: ");
